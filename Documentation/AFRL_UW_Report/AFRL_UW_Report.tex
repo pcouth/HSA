@@ -509,6 +509,7 @@ is being used to investigate the graph representation method on multi-parameter,
 To capture continuation processes with varying parameter designations, a ``top'' layer of nodes was added to the graph representation scheme. Each of these nodes are defined by different sets of parameter designations that form subsets of the top level dynamics describe by equation \ref{mar24_eq1}. For reference, the ordering of nodes starting from the top is now: top-node, $p$-node, and $x$-node. The current coloring scheme displays top-nodes as tan, $p$-nodes as white, and $x$-nodes as green/red/grey, depending on stability. As an example, the three parameter designations for equation \ref{mar24_eq1},
 
 \begin{equation}
+\label{mar24_eq2}
 \begin{split}
 1: \quad p_1=p, \quad p_2=0, \quad p_3=0, \quad p_4=1 \\ 2: \quad p_1=0, \quad p_2=p, \quad p_3=0, \quad p_4=1 \\ 3: \quad p_1=p, \quad p_2=0, \quad p_3=1, \quad p_4=0
 \end{split}
@@ -553,11 +554,52 @@ A GitHub repository (\texttt{https://github.com/pcouth/continuation-VV}) has bee
 
 
 \subsubsection{Questions/concerns}
+\label{mar24q}
 \begin{itemize}
 \item The multi-parameter graph representation is incomplete. Top-node transition conditions need to be added. Top-nodes should also contain parameter conditions (e.g. $p_2=p_3=0, p_4=1$). Currently, the varied parameter within each top-node is labeled $p$. It would be useful to label these as $p_1,p_2,...$ in order to track which parameter from the original dynamics is being varied.
 \item The proposed algorithm for generating multiple COSY data sets of multi-parameter systems needs to be created.
 \item Modifications are required to produce executable functions for multi-parameter systems.
 \end{itemize}
+
+
+\subsection{March 31, 2017}
+The goals outlined in Section \ref{mar24q} were addressed. Parameter conditions were added to top-nodes and their transitions. These conditions are based on the parameter designation matrix defined by the user. For example, the top-node for case 1 of equation \ref{mar24_eq2} contains the condition ``$p_2=0, p_3=0, p_4=1$''. The active parameter within each top-node was previously identified as $p$. This has been changed to $p_1$, $p_2$,..., $p_k$ to keep track of which parameter from the original dynamics is being varied.
+
+The automated process proposed in the previous update for generating multiple sets of COSY data for multi-parameter systems was created. The inputs to this function are the original dynamics, a parameter designation matrix, and options for COSY. The function iteratively creates subset dynamics based on parameters, executes COSY, and sends the output data to the graph representation algorithm. As an example, the dynamical system
+
+\begin{equation}
+\label{mar31_eq1}
+\dot{x}=p_1+p_2x+p_3x^2-p_4x^3
+\end{equation}
+was used with parameter designation matrix
+
+\begin{equation}
+PD=\begin{bmatrix}
+    NaN & 0 & 0 & 1\\
+    0 & NaN & 0 & 1\\
+    NaN & 0 & 1 & 0 
+\end{bmatrix},
+\end{equation}
+where each row defines the parameters for a subset of the original dynamics and NaN represents the active continuation parameter for that subset. The output of the multi-parameter graph representation algorithm on this system for general and fixed-$p$ cases is shown in Figure \ref{mar31_graph_mp}.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.4\textwidth}
+	\centering
+	\includegraphics[width=3.5in]{mar31_graph_mpgen.png}
+	\caption{General $p$}
+\end{subfigure}
+\qquad \qquad \qquad
+\begin{subfigure}[b]{0.4\textwidth}
+	\centering
+	\includegraphics[width=3in]{mar31_graph_mpfp.png}
+	\caption{Fixed $p$}
+\end{subfigure}
+\caption{Graph representation of $\dot{x}=p_1+p_2x+p_3x^2-p_4x^3$ with three different parameter designations.}
+\label{mar31_graph_mp}
+\end{figure}
+
+An executable MATLAB function file is now created for multi-parameter cases. This file contains sets of dynamics that are relevant to the parameter designations and are activated depending on parameter values. When the file is accessed, stability information is provided depending on the node domains in which the values of parameter $p$ and state $x$ reside. For example, statements on whether the system diverges from an unstable equilibrium or converges to a stable equilibrium are displayed. Additionally, the data used to construct the graph representation is now saved as an output of the graph function (previously only the image file was output).
 
 
 \begin{thebibliography}{9}

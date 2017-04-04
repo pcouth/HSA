@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.4)  24 MAR 2017 17:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.4)  31 MAR 2017 16:25
 entering extended mode
 **./AFRL_UW_Report.tex
 (AFRL_UW_Report.tex
@@ -564,10 +564,10 @@ pf1.png> <./mar24_graph_pf2.png>]
 File: mar24_graph_mpgen.png Graphic file (type png)
 
 <use mar24_graph_mpgen.png>
-Package pdftex.def Info: mar24_graph_mpgen.png used on input line 529.
+Package pdftex.def Info: mar24_graph_mpgen.png used on input line 530.
 (pdftex.def)             Requested size: 252.94499pt x 310.91669pt.
 
-Overfull \hbox (50.59209pt too wide) in paragraph at lines 529--530
+Overfull \hbox (50.59209pt too wide) in paragraph at lines 530--531
  [][] 
  []
 
@@ -575,38 +575,62 @@ Overfull \hbox (50.59209pt too wide) in paragraph at lines 529--530
 File: mar24_graph_mpfp.png Graphic file (type png)
 
 <use mar24_graph_mpfp.png>
-Package pdftex.def Info: mar24_graph_mpfp.png used on input line 535.
+Package pdftex.def Info: mar24_graph_mpfp.png used on input line 536.
 (pdftex.def)             Requested size: 216.81pt x 264.28957pt.
 
-Overfull \hbox (14.45709pt too wide) in paragraph at lines 535--536
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 536--537
  [][] 
  []
 
-[19 <./mar24_graph_mpgen.png> <./mar24_graph_mpfp.png>] [20] [21]
+[19 <./mar24_graph_mpgen.png> <./mar24_graph_mpfp.png>] [20]
+<mar31_graph_mpgen.png, id=125, 963.6pt x 960.58875pt>
+File: mar31_graph_mpgen.png Graphic file (type png)
+
+<use mar31_graph_mpgen.png>
+Package pdftex.def Info: mar31_graph_mpgen.png used on input line 589.
+(pdftex.def)             Requested size: 252.94499pt x 252.15099pt.
+
+Overfull \hbox (50.59209pt too wide) in paragraph at lines 589--590
+ [][] 
+ []
+
+<mar31_graph_mpfp.png, id=126, 801.99625pt x 764.8575pt>
+File: mar31_graph_mpfp.png Graphic file (type png)
+
+<use mar31_graph_mpfp.png>
+Package pdftex.def Info: mar31_graph_mpfp.png used on input line 595.
+(pdftex.def)             Requested size: 216.81pt x 206.77104pt.
+
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 595--596
+ [][] 
+ []
+
+[21 <./mar31_graph_mpgen.png> <./mar31_graph_mpfp.png>] [22]
 (AFRL_UW_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 4991 strings out of 493634
- 74970 string characters out of 3143736
+ 5005 strings out of 493634
+ 75259 string characters out of 3143736
  147338 words of memory out of 3000000
- 8259 multiletter control sequences out of 15000+200000
+ 8271 multiletter control sequences out of 15000+200000
  15420 words of font info for 60 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,16n,77p,1612b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AFRL_UW_Report.pdf (21 pages, 864107 bytes).
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on AFRL_UW_Report.pdf (22 pages, 986498 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
