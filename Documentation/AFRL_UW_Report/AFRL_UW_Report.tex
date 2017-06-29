@@ -50,7 +50,7 @@
 
 Assuring safe performance of a system is a critical component of the design process. An analysis of a system's underlying dynamics can result in the detection of unsafe properties early in the process, thus avoiding more expensive design changes in later stages of development. However, a complete understanding of nonlinear system dynamics is typically difficult to obtain due to the wide range of possible behavior. This presents a fundamental challenge to ensuring safe operation, particularly for highly autonomous systems with large sets of possible operating conditions. As advances in autonomy yield more intelligent and complex systems, the common practice of verifying safety properties by performing a time simulation for every possible set of operating conditions becomes inadequate. Verification and validation (V\&V) architectures that employ model checking or theorem proving techniques can provide an exhaustive means of verifying safety properties. However while these techniques are useful, they are restrictive in the class of systems they can handle and are often computationally intensive. Therefore, new V\&V techniques are required to keep pace with the development of increasingly intelligent and diverse systems. 
 
-Numerical continuation methods can be used to characterize how the behavior of a system changes as parameters are varied via a bifurcation analysis \cite{allgower}. The term bifurcation defines a point in state-parameter space for a dynamical system where changes occur in the number and/or stability of equilibrium solutions \cite{Strogatz}. The results of a numerical continuation analysis, typically a bifurcation diagram depicting the equilibrium solution branches and their stability, provide insight on safe and unsafe operating conditions for the system being analyzed.
+Numerical continuation methods can be used to characterize how the behavior of a system changes as parameters are varied via a bifurcation analysis \cite{allgower}. The term bifurcation defines a point in state-parameter space for a dynamical system where changes occur in the number and/or stability of equilibrium solutions \cite{strogatz}. The results of a numerical continuation analysis, typically a bifurcation diagram depicting the equilibrium solution branches and their stability, provide insight on safe and unsafe operating conditions for the system being analyzed.
 
 While bifurcation diagrams are useful representations of system behavior, they do not lend themselves to an automatic verification scheme and they do not explicitly define stable/unstable (i.e. safe/unsafe) regions of the operational envelope. Capturing the basins of attraction (i.e. the domain of initial conditions for which trajectories will reach a stable equilibrium as $t \to \infty$) of the continuation data would enable the direct determination of safe/unsafe domains of the system state-space. Using this information, a system representation based on safe/unsafe operating conditions with identified domains would be well-suited for automatic safety verification and would provide a useful visualization of system behavior. Additionally, this type of representation could interface with verification schemes such as model checking and theorem proving to enhance their capabilities. 
 
@@ -126,11 +126,11 @@ experiences a transcritical bifurcation at $p=0$. The two equilibrium points are
 
 \subsection{V\&V tools}
 \subsubsection{Model checking}
-The term model checking describes techniques to automatically verify the correctness of finite-state systems \cite{Clarke1,Clarke2}. The inputs to a model checker are mathematical representations of the system to be verified and the property specifications, typically expressed as logic formulas, that are used to determine correctness. Model checkers then apply exhaustive search algorithms to the entire state-space to determine if the property specifications hold true or are violated. For increasingly complex systems, an exponential growth of this exhaustive search process leads to a state-space explosion problem. Therefore, model checkers require abstraction of the target system to ease the computational process \cite{Clarke3,Merz}. This sacrifices fidelity to the original system and often necessitates a separate review process to ensure that the abstracted model adequately reflects the original system. 
+The term model checking describes techniques to automatically verify the correctness of finite-state systems \cite{clarke1,grumberg}. The inputs to a model checker are mathematical representations of the system to be verified and the property specifications, typically expressed as logic formulas, that are used to determine correctness. Model checkers then apply exhaustive search algorithms to the entire state-space to determine if the property specifications hold true or are violated. For increasingly complex systems, an exponential growth of this exhaustive search process leads to a state-space explosion problem. Therefore, model checkers require abstraction of the target system to ease the computational process \cite{clarke2,merz}. This sacrifices fidelity to the original system and often necessitates a separate review process to ensure that the abstracted model adequately reflects the original system. 
 
 
 \subsubsection{Theorem proving}
-Theorem proving, or automated reasoning, is a commonly used verification method \cite{Hasan,Harrison}. Mathematical models of the system and the property specification must be formalized into a logic-based architecture. Typical theorem provers work by expanding on well-known axioms to deduce the validity of the specification for the system being verified. The logic formalization restricts the capabilities of theorem proving, with trade-offs between system complexity and automation potential dependent on the level of logic expression. Propositional logic expression is very limited in the types of systems that can be expressed, but is easily incorporated into automated verification schemes. First-order logic has fewer limitations on system expressions, but may require some user interaction. Higher-order logic can be used to express complex systems, but is highly user-interactive and therefore not suitable for automatic verification.
+Theorem proving, or automated reasoning, is a commonly used verification method \cite{hasan,harrison}. Mathematical models of the system and the property specification must be formalized into a logic-based architecture. Typical theorem provers work by expanding on well-known axioms to deduce the validity of the specification for the system being verified. The logic formalization restricts the capabilities of theorem proving, with trade-offs between system complexity and automation potential dependent on the level of logic expression. Propositional logic expression is very limited in the types of systems that can be expressed, but is easily incorporated into automated verification schemes. First-order logic has fewer limitations on system expressions, but may require some user interaction. Higher-order logic can be used to express complex systems, but is highly user-interactive and therefore not suitable for automatic verification.
 
 
 \section{Status updates}
@@ -142,8 +142,8 @@ A graph representation is proposed where each equilibrium is depicted by a node.
 	
 \begin{enumerate}
   \item Numerical continuation is used on the input system dynamics to generate data on the equilibrium solution branches, including their stability and domains.
-  \item The continuation output information, typically presented as a bifurcation diagram, is converted to a graph description language (e.g. DOT \cite{Koutsofios}). If the user specifies a value of interest for parameter $p$, only data for that particular $p$ will be converted.
-  \item A graph visualization tool (e.g. GraphViz \cite{Ellson}) reads the DOT file and generates a graph representation.
+  \item The continuation output information, typically presented as a bifurcation diagram, is converted to a graph description language (e.g. DOT \cite{graphviz1,graphviz2}). If the user specifies a value of interest for parameter $p$, only data for that particular $p$ will be converted.
+  \item A graph visualization tool (e.g. GraphViz \cite{graphviz3}) reads the DOT file and generates a graph representation.
 \end{enumerate}
 
 A graph representation concept of data from a bifurcation diagram is shown in Figure \ref{jan13_graph_concept}. The stable and unstable equilibrium branches shown in the bifurcation diagram are represented as nodes. An additional node represents the region of $p>0$ where no equilibrium branches exist. Transitions between nodes are labeled with the appropriate $x$ and $p$ domains. In Figure \ref{jan13_graph_concept}, $D_s(p)$ and $D_u(p)$ are stable and unstable $x$ domains, respectively, which are dependent on the value of $p$. Cases where $p$ is an unspecified value, such as in Figure \ref{jan13_graph_concept}, are referred to as ``general'' while cases with a user-specified value for $p$ are referred to as ``fixed-$p$.'' An automated process for fixed-$p$, 1-variable systems along with concept examples of the graph representation for typical saddle node and pitchfork bifurcation cases are shown in the following sections. 
@@ -169,7 +169,7 @@ An automated process was created in MATLAB that follows the generalized steps fr
 	\item If no equilibrium exists, no domains are identified.
 	\item If only one equilibrium exists, its domain is all values of $x$, or $x\in [-\infty \quad +\infty]$.
 	\item For multiple equilibria, the first equilibrium (E1) has the lowest $x$-value. Since no equilibrium exists below this, the lower limit of the domain for E1 is $-\infty$. 
-	\item If E1 is unstable then the upper limit of its domain is its $x$-value since any trajectories starting above this value will trend towards the second equilibrium (E2), which is stable. If E1 is stable then the upper limit of its domain is the $x$-value for E2, which is unstable. This method takes advantage of the fact that in 1-variable systems, the stability of an equilibrium point is opposite the stability of the adjacent equilibrium points \cite{Strogatz}. For example, the stability ordering for a system with three equilibrium points is either stable-unstable-stable or unstable-stable-unstable.
+	\item If E1 is unstable then the upper limit of its domain is its $x$-value since any trajectories starting above this value will trend towards the second equilibrium (E2), which is stable. If E1 is stable then the upper limit of its domain is the $x$-value for E2, which is unstable. This method takes advantage of the fact that in 1-variable systems, the stability of an equilibrium point is opposite the stability of the adjacent equilibrium points \cite{strogatz}. For example, the stability ordering for a system with three equilibrium points is either stable-unstable-stable or unstable-stable-unstable.
 	\item This process is repeated for E2 and beyond, with the domain determined by using the stability of the equilibria above and below. 
 	\item The upper domain for the highest $x$-value equilibrium is +$\infty$.
 	\end{enumerate}
@@ -602,42 +602,271 @@ where each row defines the parameters for a subset of the original dynamics and 
 An executable MATLAB function file is now created for multi-parameter cases. This file contains sets of dynamics that are relevant to the parameter designations and are activated depending on parameter values. When the file is accessed, stability information is provided depending on the node domains in which the values of parameter $p$ and state $x$ reside. For example, statements on whether the system diverges from an unstable equilibrium or converges to a stable equilibrium are displayed. Additionally, the data used to construct the graph representation is now saved as an output of the graph function (previously only the image file was output).
 
 
-\begin{thebibliography}{9}
+\subsection{April 7, 2017}
+To improve the readability of the output hybrid graphs, it is desired to produce the text/equations in LaTeX-style formatting. However, GraphViz does not directly support LaTeX formatting. dot2tex \cite{fauske} is a publicly available tool that can convert the GraphViz DOT file into a LaTeX output, thus allowing for features such as equation formatting. A dot2tex-friendly DOT file has been added as an output of the graph representation algorithm parallel to the original PNG-type output shown in previous sections. An example of the automated output for a multi-parameter case, most recently shown in Figure \ref{mar31_graph_mp}, is shown in Figure \ref{apr07_graph_mp}. This feature has been tested on the prototypical bifurcation cases and the multi-parameter cases previously presented. Development of the dot2tex tool is ongoing. Therefore this feature is currently being used alongside the previous PNG-type output to avoid potential dot2tex-based issues from preventing development of the graph representation algorithm. 
 
-\bibitem{allgower}
-Allgower, E. L. and Georg, K., {\it Introduction to Numerical Continuation Methods}, Society for Industrial and Applied Mathematics, Philadelphia, PA, 1990.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6in]{apr07_texgraph_mp1.pdf}
+\caption{Graph representation (dot2tex) of $\dot{x}=p_1+p_2x+p_3x^2-p_4x^3$ with three different parameter designations for the general case.}
+\label{apr07_graph_mp}
+\end{center}
+\end{figure}
 
-\bibitem{Strogatz}
-S. Strogatz, Nonlinear Dynamics and Chaos with Applications to Physics, Biology, Chemistry, and Engineering, Westview Press, 2nd edition, 2015.
+For reference, a list of dependencies for the graph representation algorithm is shown below. The work presented thus far was conducted on Windows OS: operation on Linux or Mac OS may require some modifications.
 
-\bibitem{spetzler}
-Spetzler, M. G., and Narang-Siddarth, A., "Continuation Analysis of Nonlinear Systems with Equality Constraints on States, Parameters, and Eigenvalues," {\it AIAA Guidance, Navigation and Control Conference}, AIAA Paper 2015-1320, 2015, doi: 10.2514/1.C031247
+\begin{itemize}
+\item MATLAB (developed on R2015b)
+	\begin{itemize}
+	\item Symbolic Math Toolbox required for general cases
+	\end{itemize}
+\item GraphViz
+\item dot2tex
+	\begin{itemize}
+	\item LaTeX
+	\item Python 2.6 or 2.7
+	\item pyparsing (Python module)
+	\item Preview (LaTeX package)
+	\item PGF/TikZ (LaTeX package)
+	\end{itemize}
+\end{itemize}
 
-\bibitem{Clarke1}
-E. M. Clarke, E. A. Emerson and A. P. Sistla. Automatic verification of finite-state concurrent systems using temporal logic specifications. In ACM Transactions on Programming Languages and Systems, 8(2):244--263, 1986.
 
-\bibitem{Clarke2}
-E.M. Clarke and Q. Wang. 25 Year of Model Checking: History, Achievement, Perspectives. Springer-Verlag Berlin, Heidelberg, 2008.
+\subsection{April 14, 2017}
+The next goal of this work is to enable graph representation of multi-dimensional systems. The COSY continuation tool is already capable of handling such systems as long as the number of unknowns is one greater than the number of equations (e.g. a system with two state equations where the unknowns are the two states and one parameter). While this makes it possible to determine the equilibrium branches, determining their basins of attraction is challenging. The assumption that trajectories trend towards an adjacent stable equilibrium that was used for 1-dimensional systems no longer applies in 2+ dimensions. Therefore an alternate means of finding the basins is required.
 
-\bibitem{Clarke3}
-E. M. Clarke, O. Grumberg, and D. E. Long. Model checking and abstraction. In Proceedings of the Nineteenth Annual ACM Symposium on Principles of Programming Languages, January 1992.
+Several techniques involve using sum of squares (SOS) programming to find Lyapunov functions that guarantee stability within certain bounds such as in \cite{tan}. However, these functions can be difficult to obtain and typically capture only a subset of the entire basin. The potential use of numerical continuation for tracing basin boundaries will be investigated. For now, it is planned to structure the multi-dimensional graph representation on resulting data from a separate basin identification step. This would allow the user to choose a preferred method of basin identification without adversely affecting the graph representation algorithm. Options for the basin step, including SOS and continuation, will be explored.
 
-\bibitem{Merz}
-S. Merz, Model Checking: A Tutorial Overview, Modeling and Verification of Parallel Processes of the series Lecture Notes in Computer Science Volume 2067, pp.3-38, 2001.
 
-\bibitem{Hasan}
-O. Hasan and S. Tahar. Formalized Probability Theory and Applications Using Theorem Proving. IGI Global, 2015.
+\subsection{May 5, 2017}
+A new set of code files are being developed for the graph representation of multi-dimensional systems. The structure is similar to the 1-dimensional systems previously addressed, with the most significant difference being the lack of explicit basin definitions since the behavioral assumptions used for 1D systems no longer hold for higher dimensions. For reference, the bifurcation diagram that results from applying numerical continuation to the 2D system,
 
-\bibitem{Harrison}
-J. Harrison. Handbook of practical logic and automated reasoning. Cambridge University Press, 2009.
+\begin{equation}
+\label{05may_eq1}
+\begin{bmatrix}
+\dot{x}_1 \\ \dot{x}_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+-px_2-x_1^3 \\ -x_2^2-x_1
+\end{bmatrix},
+\end{equation}
+is shown in Figure \ref{may05_bfd_MD}. The current output of the multi-dimensional graph representation tool for the general and example fixed-$p$ cases of this system are shown in Figure \ref{may05_graph_MD}. Mode definitions and switch conditions are now defined generically where each $D_s$ is a basin of attraction for a stable equilibrium and the following 2-digit number in the subscript identify the parameter designation number (1 for single-parameter cases) and the relevant $p$-mode. In multi-dimensional systems, the identification of a basin of attraction does not necessarily provide insight on the stability of regions outside of the basin. For example, the SOS method often captures only a portion of a basin, therefore assumptions cannot be made on whether a point outside of the SOS portion is stable or unstable. To capture this uncertainty, the ``unknown'' mode type was incorporated into the graph representation with the domain $D_u$. This contains all conditions outside of stable basins, including any unstable equilibria.
 
-\bibitem{Koutsofios}
-E. Koutsofios and S. North, \textit{Drawing Graphs with DOT}, Murray Hill, NJ: AT\&T Bell Laboratories, 1996. 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=3.5in]{may05_bfd_MD.png}
+\caption{Bifurcation diagram for equation (\ref{05may_eq1}).}
+\label{may05_bfd_MD}
+\end{center}
+\end{figure}
 
-\bibitem{Ellson}
-J. Ellson, E. Gansner, E. Koutsofios, S. North and G. Woodhull, ``Graphviz and Dynagraph - Static and Dynamic Graph Drawing Tools,'' AT\&T Lab - Research, Florham Park, NJ, 2003.
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.6\textwidth}
+	\centering
+	\includegraphics[width=3.8in]{may05_graph_MD1.pdf}
+	\caption{General}
+\end{subfigure}
+\qquad \qquad
+\begin{subfigure}[b]{0.3\textwidth}
+	\centering
+	\includegraphics[width=1.8in]{may05_graph_MD2.pdf}
+	\caption{Fixed-$p$}
+\end{subfigure}
+\caption{Graph representation for equation (\ref{05may_eq1}), general and fixed-$p$ cases.}
+\label{may05_graph_MD}
+\end{figure}
 
-\end{thebibliography}
+The system
+\begin{equation}
+\label{05may_eq2}
+\begin{bmatrix}
+\dot{x}_1 \\ \dot{x}_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+-p_1x_2+p_2x_1-x_1^3 \\ -p_3\left(x_2^2+x_1\right)+p_2x_1-p_4x_1^2
+\end{bmatrix}
+\end{equation}
+is used to demonstrate a multi-dimensional, multi-parameter case with parameter designation 
 
+\begin{equation}
+PD=\begin{bmatrix}
+    p & 0 & 1 & 0\\
+    1 & p & 0 & 1
+\end{bmatrix}.
+\end{equation}
+The resulting graph representations for the general and example fixed-$p$ cases are shown in Figures \ref{may05_graph_MDMP1} and \ref{may05_graph_MDMP2}, respectively.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=6in]{may05_graph_MDMP1.pdf}
+\caption{Example Multi-dimensional, multi-parameter graph representation, general case.}
+\label{may05_graph_MDMP1}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=3in]{may05_graph_MDMP2.pdf}
+\caption{Example Multi-dimensional, multi-parameter graph representation, fixed-$p$ case.}
+\label{may05_graph_MDMP2}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Questions/concerns}
+\begin{itemize}
+\item The separate basin identification step needs to be created to complement the graph representation. The output will likely be another image that depicts basins for each of the stable domains $D_s$. The basin information could also be incorporated into the executable function file so that stability properties are displayed when accessed (such as in the 1D function output). 
+\item Basin identification methods planned to be explored include Monte Carlo simulation, sum of squares, and numerical continuation.
+\end{itemize}
+
+
+\subsection{May 12, 2017}
+Options were explored for the basin determination step. A script was created to identify a basin via Monte Carlo simulations. The initial conditions for each simulation can be chosen using a random distribution or using fixed steps along the values for each state. Any initial conditions for which the trajectory's final value is within some zero tolerance of a stable equilibrium is considered to be within the basin of attraction for that equilibrium. The user-defined inputs to this script include: 
+
+\begin{itemize}
+\item Mode information from the automaton generation step, which is used to identify the stable equilibria.
+\item The limits of interest for each of the system states. This is used as the outer boundary of the basin determination process. Values outside of this boundary are considered to be within the unknown domain $D_u$.
+\item Selection of random or fixed step sampling.
+\item Sample size definition. If random sampling is selected, this is the total number of samples, uniformly distributed within the boundary limits. If fixed step sampling is selected, this is the number of evenly spaced segments for each state.
+\item The simulation time span.
+\end{itemize}
+
+This code was applied to the equation (\ref{05may_eq1}) system to determine the basin of attraction, $D_{s11}$, for $x_1^*$, $x_2^*=0$ as shown in Figure \ref{may05_graph_MD}. Figure \ref{basinMDMP_11_1} shows the simulated trajectories, Figure \ref{basinMDMP_11_2} shows the basin testing results, and Figure \ref{Ds11_basin} shows the $D_{s11}$ basin of attraction.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=3.7in]{basinMDMP_11_1.png}
+\caption{Monte Carlo simulation trajectories.}
+\label{basinMDMP_11_1}
+\end{center}
+\end{figure}
+\vspace{-.3in}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4in]{basinMDMP_11_2.eps}
+\caption{Basin testing results.}
+\label{basinMDMP_11_2}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4in]{Ds11_basin.eps}
+\caption{$D_{s11}$ basin of attraction.}
+\label{Ds11_basin}
+\end{center}
+\end{figure}
+
+Note that this Monte Carlo method of basin determination does not guarantee that no ``holes'' exist within the basin boundary. The SOS method of basin determination using SOSTOOLS \cite{sostools} was attempted on the same system without success. While SOS can be useful in finding guaranteed attractive regions without holes, it is limited in the types of systems it can handle and often requires laborious user interaction. Further investigation into the SOS method is required.
+
+\subsubsection{Questions/concerns}
+\begin{itemize}
+\item The basin of attraction shown in Figure \ref{Ds11_basin} was generated manually. It is planned to automate the process of identifying the basin boundary based on the testing results.
+\item The use of numerical continuation to ``trace'' the basin's boundary will be investigated. 
+\end{itemize}
+
+
+\subsection{May 26, 2017}
+The numerical continuation basin tracing technique was explored. Similar to how numerical continuation is used to approximate an equilibrium solution branch, it can be used to ``trace'' a basin of attraction by altering the continuation problem definition to search for values of $x_0$ that solve $f(x_0,t_f)=x^*$, where $x^*$ is a stable equilibrium. This is done by incorporating a numerical integration step, such as a Runge Kutta method, into the continuation process so that approximations can be made for final values $x_f$ based on a given time span and initial conditions $x_0$. 
+
+Continuation is applied to integrator equation, which accesses the state equations at each iteration, instead of being applied directly to the state equations themselves. However, the inclusion of this numerical integration step requires additional variables since it is desired to vary the initial conditions and the states. This also requires additional equations to satisfy the numerical continuation requirement that the number of variables is one greater than the number of equations. To ensure that the solution satisfies the basin of attraction condition at each continuation step, the constraint equation
+
+\begin{equation}
+\label{constraints}
+G=x\left(t_f\right)-x^*-\epsilon=0,
+\end{equation}
+where $\epsilon$ is some zero tolerance, is enforced such that the final state values match the stable equilibrium values. With the states $x$, initial conditions $x_0$, and zero tolerance $\epsilon$ as variables, numerical continuation can be applied. The resulting values of $x_0$ trace the basin of attraction. To demonstrate, the system
+\begin{equation}
+\begin{bmatrix}
+\dot{x}_1 \\ \dot{x}_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+-p_1x_2+p_2x_1-x_1^3 \\ -p_3\left(x_2^2+x_1\right)+p_2x_1-p_4x_1^2
+\end{bmatrix}
+\end{equation}
+with parameter designation 
+
+\begin{equation}
+PD=\begin{bmatrix}
+    p & 0 & 1 & 0\\
+    1 & p & 0 & 1
+\end{bmatrix}
+\end{equation}
+was used. The resulting fixed-$p$ hybrid stability automata with $p=-0.5$ is shown in Figure \ref{MDMP_graph2}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4in]{MDMP_graph2.pdf}
+\caption{Example multi-dimensional, multi-parameter hybrid stability automaton, fixed-$p$.}
+\label{MDMP_graph2}
+\end{center}
+\end{figure}
+
+Both the Monte Carlo and continuation basin tracing methods are applied to find $D_{s21}$. The results are shown in Figure \ref{basin_compare}. It can be seen that the numerical continuation method traces a basin boundary similar to what is found via repeated simulation. Using this data, the $D_{s21}$ basins of attraction determined by Monte Carlo and numerical continuation methods are shown in Figure \ref{basins_compare}. The computational advantage of numerical continuation is observed in its 27-second process time versus the 369-second process time for the Monte Carlo method (performed on an Intel Core i7-6700 3.40GHz processor with 16GB of RAM). However, the continuation method required additional user intuition in the selection of an initial point known to be near the basin's boundary. 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4.5in]{basin_compare.eps}
+\caption{Monte Carlo and numerical continuation (solid blue line) results for finding $D_{s21}$.}
+\label{basin_compare}
+\end{center}
+\end{figure} 
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{basin_MC.eps}
+\end{subfigure}
+\quad 
+\begin{subfigure}[b]{0.45\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{basin_NM.eps}
+\end{subfigure}
+\caption{$D_{s21}$ basin of attraction approximations using Monte Carlo (left) and numerical continuation (right).}
+\label{basins_compare}
+\end{figure}
+
+
+\subsubsection{Questions/concerns}
+\begin{itemize}
+\item Promising results were shown using the continuation basin tracing technique. However, only the example presented has been tested, and heavy user-interaction was required. Further exploration and development of this method is planned going forward.
+\end{itemize}
+
+
+\subsection{June 29, 2017}
+Since the last update, the code for generating the various types of hybrid stability automata (HSA) has been improved and polished. A summary of the completed tasks are listed below.
+
+\begin{itemize}
+\item General code cleanup for user friendliness (e.g. simplified functions, removed obsolete portions, added more comments).
+
+\item Fixed an issue with branch separation for multi-dimensional systems. Previously, only branches with at most two sub-branches (i.e. one location where the stability changes) could be handled. Now, multiple stability changes within the same branch can be handled.
+
+\item Fixed an issue that was displaying certain parameters in different fonts while using dot2tex. For example, ``p'' is now correctly shown as ``$p$'' math font. Commas were added in between parameter designations for multi-parameter systems. For example, ``$p_1=1 \; p_2=0 \; p_3=1$'' is now shown as ``$p_1=1, \; p_2=0, \; p_3=1$'' instead.
+
+\item Added a LaTeX symbol replace option. When using dot2tex, the user can now specify different symbols for states and parameters that will be displayed in the output PDF file. For example, state $x_1$ can be displayed as $\gamma_1$. Previously, this was performed by manually altering the DOT file.
+
+\item Created a user defined optional input variable to contain selections for parameter designation matrices (multi-parameter systems), on/off for dot2tex, LaTeX symbol replace function, and zero tolerance.
+
+\item The basin identification tool using repeated simulations now automatically approximates each basin's boundary using the sampled results. This boundary is saved as a data file so that it can be used in other functions
+
+\item The HSA code for multi-dimensional systems now produces a fully operational executable function file. When this file is accessed, stability information is found by reading the basin boundary data saved from the basin identification tool, if available. If the system state is within a stable boundary, the point of convergence is displayed. Otherwise, the behavior is considered unknown (i.e. within the unknown domain).
+
+\end{itemize}
+
+\noindent The GitHub link has been changed to \texttt{https://github.com/pcouth/HSA}
+
+\subsubsection{Questions/concerns}
+\begin{itemize}
+\item A user manual will be created for the hybrid stability automaton tools.
+\end{itemize}
+
+
+\bibliographystyle{unsrt}
+\bibliography{AFRL_UW_Report}
 
 \end{document}

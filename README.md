@@ -1,2 +1,14 @@
-# continuation-VV
-Numerical continuation analysis for V&amp;V architectures. Advanced Dynamics, Validation &amp; Control Research Laboratory, University of Washington
+Hybrid Stability Automata (HSA)
+===============================
+Tool to generate hybrid stability automata for dynamical systems using numerical continuation methods. 
+
+Dependencies
+============
+ - MATLAB with symbolic toolbox
+ - [GraphViz][GraphViz]
+ - [dot2tex][dot2tex]
+
+[GraphViz]: http://www.graphviz.org/
+[dot2tex]: https://dot2tex.readthedocs.io/en/latest/
+
+

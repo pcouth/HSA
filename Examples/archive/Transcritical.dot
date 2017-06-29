@@ -1,0 +1,32 @@
+digraph {
+compound=true;
+graph[style="rounded"]
+nodesep=0.75
+label=<x<SUP>'</SUP> = p*x-x^2 <br/>> 
+subgraph cluster1 {
+label=<p &lt; 0 <br/>x<SUP>'</SUP> = p*x-x^2> 
+node [style=filled] 
+"eq11" [fillcolor=red label="unstable 
+ x* = p 
+ x(-inf,xeq1)" ]; 
+"eq12" [fillcolor=green label="stable 
+ x* = 0 
+ x(xeq1,inf)" ]; 
+}
+subgraph cluster2 {
+label=<p &gt; 0 <br/>x<SUP>'</SUP> = p*x-x^2> 
+node [style=filled] 
+"eq21" [fillcolor=red label="unstable 
+ x* = 0 
+ x(-inf,xeq1)" ]; 
+"eq22" [fillcolor=green label="stable 
+ x* = p 
+ x(xeq1,inf)" ]; 
+}
+"eq12" -> "eq11"[label="x<xeq1"] 
+"eq11" -> "eq12"[label="x>xeq1"] 
+"eq22" -> "eq21"[label="x<xeq1"] 
+"eq21" -> "eq22"[label="x>xeq1"] 
+"eq11" -> "eq21"[ltail=cluster1,lhead=cluster2,label="p > 0"]; 
+"eq21" -> "eq11"[ltail=cluster2,lhead=cluster1,label="p < 0"]; 
+}

@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{allgower}
+Eugene~L. Allgower and Kurt Georg.
+\newblock {\em Introduction to Numerical Continuation Methods}.
+\newblock Society for Industrial and Applied Mathematics, 2003.
+
+\bibitem{strogatz}
+Steven Strogatz.
+\newblock {\em Nonlinear Dynamics and Chaos with Applications to Physics,
+  Biology, Chemistry, and Engineering}.
+\newblock Westview Press, 2nd edition, 2015.
+
+\bibitem{spetzler}
+Max~G. Spetzler and Anshu Narang-Siddarth.
+\newblock Continuation analysis of nonlinear systems with equality constraints
+  on states, parameters, and eigenvalues.
+\newblock {\em AIAA Guidance, Navigation and Control Conference}, 2015.
+
+\bibitem{clarke1}
+Edmund~M. Clarke, E.~Allen Emerson, and Aravinda~P. Sistla.
+\newblock Automatic verification of finite-state concurrent systems using
+  temporal logic specifications.
+\newblock {\em ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  1986.
+
+\bibitem{grumberg}
+Orna Grumberg and Helmut Veith.
+\newblock {\em 25 Years of Model Checking: History, Achievements,
+  Perspectives}.
+\newblock Springer, 2008.
+
+\bibitem{clarke2}
+Edmund~M. Clarke, Orna Grumberg, and David Long.
+\newblock Model checking and abstraction.
+\newblock {\em ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  1994.
+
+\bibitem{merz}
+Stephan Merz.
+\newblock Model checking: A tutorial overview.
+\newblock In {\em Modeling and Verification of Parallel Processes}. Springer,
+  2001.
+
+\bibitem{hasan}
+Osman Hasan and Sofi{\`e}ne Tahar.
+\newblock {\em Formalized Probability Theory and Applications Using Theorem
+  Proving}.
+\newblock IGI Global, 2015.
+
+\bibitem{harrison}
+John Harrison.
+\newblock {\em Handbook of Practical Logic and Automated Reasoning}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem{graphviz1}
+Emden~R. Gansner and Stephen~C. North.
+\newblock An open graph visualization system and its applications to software
+  engineering.
+\newblock {\em Software - Practice and Experience}, 30(11):1203--1233, 2000.
+
+\bibitem{graphviz2}
+Emden Gansner, Eleftherios Koutsofios, and Stephen North.
+\newblock {\em Drawing Graphs with DOT, User Manual}, 2006.
+
+\bibitem{graphviz3}
+John Ellson, Emden~R. Gansner, Eleftherios Koutsofios, Stephen~C. North, and
+  Gordon Woodhull.
+\newblock {\em Graphviz and Dynagraph: Static and Dynamic Graph Drawing Tools},
+  2003.
+
+\bibitem{fauske}
+Kjell~Magne Fauske.
+\newblock dot2tex - a graphviz to latex converter.
+  \texttt{https://dot2tex.readthedocs.io/en/latest/}.
+
+\bibitem{tan}
+Weehong Tan and Andrew Packard.
+\newblock Stability region analysis using polynomial and composite polynomial
+  lyapunov functions and sum-of-squares programming.
+\newblock {\em IEEE Transactions on Automatic Control}, 2008.
+
+\bibitem{sostools}
+A.~Papachristodoulou, J.~Anderson, G.~Valmorbida, S.~Prajna, P.~Seiler, and
+  P.~A. Parrilo.
+\newblock {\em SOSTOOLS: Sum of squares optimization toolbox for MATLAB}, 2013.
+\newblock [online] http://www.eng.ox.ac.uk/control/sostools.
+
+\end{thebibliography}
