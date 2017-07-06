@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}Overview}{3}
+\contentsline {section}{\numberline {2}Installation}{3}
+\contentsline {subsection}{\numberline {2.1}Dependencies}{3}
+\contentsline {subsection}{\numberline {2.2}Installation Process}{4}
+\contentsline {section}{\numberline {3}One-Dimensional Systems}{4}
+\contentsline {subsection}{\numberline {3.1}hsa1D.m}{4}
+\contentsline {subsubsection}{\numberline {3.1.1}Inputs}{4}
+\contentsline {subsubsection}{\numberline {3.1.2}Outputs}{5}
+\contentsline {subsection}{\numberline {3.2}dataMP.m}{5}
+\contentsline {subsubsection}{\numberline {3.2.1}Inputs}{5}
+\contentsline {subsubsection}{\numberline {3.2.2}Outputs}{6}
+\contentsline {subsection}{\numberline {3.3}One-Parameter Examples}{6}
+\contentsline {subsubsection}{\numberline {3.3.1}Saddle Node Bifurcation, Fixed-$p$}{6}
+\contentsline {subsubsection}{\numberline {3.3.2}Saddle Node Bifurcation, General Case}{7}
+\contentsline {subsection}{\numberline {3.4}Multi-Parameter Examples}{8}
+\contentsline {subsubsection}{\numberline {3.4.1}General Case}{8}
+\contentsline {subsubsection}{\numberline {3.4.2}Fixed-$p$ Case}{9}
+\contentsline {section}{\numberline {4}Multi-Dimensional Systems}{10}
+\contentsline {subsection}{\numberline {4.1}hsaMD.m}{10}
+\contentsline {subsection}{\numberline {4.2}basinMD.m}{10}
+\contentsline {subsubsection}{\numberline {4.2.1}Inputs}{10}
+\contentsline {subsubsection}{\numberline {4.2.2}Outputs}{11}
+\contentsline {subsection}{\numberline {4.3}One-Parameter Example}{11}
+\contentsline {subsection}{\numberline {4.4}Multi-Parameter Example}{12}

@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem{Uth_Thesis2017}
+Uth, P., {\em Stability-Based Hybrid Automata for Safety Verification Using
+  Continuation Methods\/}, Master's thesis, University of Washington, 2017.
+
+\bibitem{Uth_Scitech2018}
+Uth, P., Narang-Siddarth, A., and Clark, M., \enquote{Construction of
+  Stability-Based Hybrid Automata for Safety Verification Using Continuation
+  Methods,} {\em AIAA Guidance, Navigation, and Control Conference\/}, 2018 (in
+  review).
+
+\bibitem{Gansner2000}
+Gansner, E.~R. and North, S.~C., \enquote{An Open Graph Visualization System
+  and its Applications to Software Engineering,} {\em Software Practice and
+  Experience\/}, Vol.~30, No.~11, 2000, pp.~1203--1233.
+
+\bibitem{Gansner2006}
+Gansner, E., Koutsofios, E., and North, S., \enquote{Drawing Graphs with DOT,}
+  Technical report, AT\&T Research, 2006, [online]
+  http://www.graphviz.org/Documentation/dotguide.pdf.
+
+\bibitem{Ellson}
+Ellson, J., Gansner, E.~R., Koutsofios, E., North, S.~C., and Woodhull, G.,
+  \enquote{Graphviz and Dynagraph — Static and Dynamic Graph Drawing Tools,}
+  {\em Springer Graph Drawing Software\/}, 2004, pp.~127--148.
+
+\bibitem{Fauske}
+Fauske, K.~M., \enquote{dot2tex - a GraphViz to LaTeX converter,} [online]
+  https://dot2tex.readthedocs.io/en/latest/.
+
+\end{thebibliography}
