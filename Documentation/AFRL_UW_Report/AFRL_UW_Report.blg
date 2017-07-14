@@ -3,4 +3,8 @@ The style file: unsrt.bst
 Database file #1: AFRL_UW_Report.bib
 Warning--entry type for "fauske" isn't style-file defined
 --line 89 of file AFRL_UW_Report.bib
-(There was 1 warning)
+Repeated entry---line 105 of file AFRL_UW_Report.bib
+ : @article{tan
+ :             ,
+I'm skipping whatever remains of this entry
+(There was 1 error message)

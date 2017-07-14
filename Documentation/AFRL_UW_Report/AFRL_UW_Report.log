@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.4)  29 JUN 2017 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.4)  14 JUL 2017 15:25
 entering extended mode
 **./AFRL_UW_Report.tex
 (AFRL_UW_Report.tex
@@ -695,7 +695,7 @@ Package pdftex.def Info: Ds11_basin-eps-converted-to.pdf used on input line 757
 <MDMP_graph2.pdf, id=317, 599.23875pt x 811.22672pt>
 File: MDMP_graph2.pdf Graphic file (type pdf)
  <use MDMP_graph2.pdf>
-Package pdftex.def Info: MDMP_graph2.pdf used on input line 803.
+Package pdftex.def Info: MDMP_graph2.pdf used on input line 804.
 (pdftex.def)             Requested size: 289.07999pt x 391.35255pt.
 
 [29 <./MDMP_graph2.pdf>]
@@ -707,7 +707,7 @@ Package epstopdf Info: Source file: <basin_compare.eps>
 (epstopdf)                    size: 43208 bytes
 (epstopdf)             Command: <epstopdf --outfile=basin_compare-eps-converted
 -to.pdf basin_compare.eps>
-(epstopdf)             \includegraphics on input line 813.
+(epstopdf)             \includegraphics on input line 814.
 Package epstopdf Info: Output file is already uptodate.
 
 <basin_compare-eps-converted-to.pdf, id=346, 421.575pt x 316.18124pt>
@@ -715,7 +715,7 @@ File: basin_compare-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basin_compare-eps-converted-to.pdf>
 Package pdftex.def Info: basin_compare-eps-converted-to.pdf used on input line 
-813.
+814.
 (pdftex.def)             Requested size: 325.215pt x 243.9138pt.
 Package epstopdf Info: Source file: <basin_MC.eps>
 (epstopdf)                    date: 2017-05-26 10:48:52
@@ -725,14 +725,14 @@ Package epstopdf Info: Source file: <basin_MC.eps>
 (epstopdf)                    size: 7397 bytes
 (epstopdf)             Command: <epstopdf --outfile=basin_MC-eps-converted-to.p
 df basin_MC.eps>
-(epstopdf)             \includegraphics on input line 823.
+(epstopdf)             \includegraphics on input line 824.
 Package epstopdf Info: Output file is already uptodate.
 
 <basin_MC-eps-converted-to.pdf, id=347, 421.575pt x 316.18124pt>
 File: basin_MC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basin_MC-eps-converted-to.pdf>
-Package pdftex.def Info: basin_MC-eps-converted-to.pdf used on input line 823.
+Package pdftex.def Info: basin_MC-eps-converted-to.pdf used on input line 824.
 (pdftex.def)             Requested size: 227.64894pt x 170.74014pt.
 Package epstopdf Info: Source file: <basin_NM.eps>
 (epstopdf)                    date: 2017-05-26 10:48:52
@@ -742,34 +742,70 @@ Package epstopdf Info: Source file: <basin_NM.eps>
 (epstopdf)                    size: 17909 bytes
 (epstopdf)             Command: <epstopdf --outfile=basin_NM-eps-converted-to.p
 df basin_NM.eps>
-(epstopdf)             \includegraphics on input line 828.
+(epstopdf)             \includegraphics on input line 829.
 Package epstopdf Info: Output file is already uptodate.
 
 <basin_NM-eps-converted-to.pdf, id=348, 421.575pt x 316.18124pt>
 File: basin_NM-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basin_NM-eps-converted-to.pdf>
-Package pdftex.def Info: basin_NM-eps-converted-to.pdf used on input line 828.
+Package pdftex.def Info: basin_NM-eps-converted-to.pdf used on input line 829.
 (pdftex.def)             Requested size: 227.64894pt x 170.74014pt.
  [30 <./basin_compare-eps-converted-to.pdf> <./basin_MC-eps-converted-to.pdf> <
 ./basin_NM-eps-converted-to.pdf>]
-Overfull \hbox (2.3751pt too wide) in paragraph at lines 847--848
+Overfull \hbox (2.3751pt too wide) in paragraph at lines 848--849
 []\OT1/cmr/m/n/12 Fixed an is-sue with branch sep-a-ra-tion for multi-dimension
 al sys-tems. Pre-vi-ously, only branches
  []
 
-(AFRL_UW_Report.bbl [31]
+[31]
+Package epstopdf Info: Source file: <VDP.eps>
+(epstopdf)                    date: 2017-07-14 14:39:30
+(epstopdf)                    size: 21434 bytes
+(epstopdf)             Output file: <VDP-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-14 14:39:34
+(epstopdf)                    size: 4466 bytes
+(epstopdf)             Command: <epstopdf --outfile=VDP-eps-converted-to.pdf VD
+P.eps>
+(epstopdf)             \includegraphics on input line 891.
+Package epstopdf Info: Output file is already uptodate.
+ <VDP-eps-converted-to.pdf, id=383, 421.575pt x 316.18124pt>
+File: VDP-eps-converted-to.pdf Graphic file (type pdf)
+
+<use VDP-eps-converted-to.pdf>
+Package pdftex.def Info: VDP-eps-converted-to.pdf used on input line 891.
+(pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
+Package epstopdf Info: Source file: <cbt_vdp01.eps>
+(epstopdf)                    date: 2017-07-14 14:53:49
+(epstopdf)                    size: 286291 bytes
+(epstopdf)             Output file: <cbt_vdp01-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-14 14:54:24
+(epstopdf)                    size: 15379 bytes
+(epstopdf)             Command: <epstopdf --outfile=cbt_vdp01-eps-converted-to.
+pdf cbt_vdp01.eps>
+(epstopdf)             \includegraphics on input line 901.
+Package epstopdf Info: Output file is already uptodate.
+
+<cbt_vdp01-eps-converted-to.pdf, id=384, 421.575pt x 316.18124pt>
+File: cbt_vdp01-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cbt_vdp01-eps-converted-to.pdf>
+Package pdftex.def Info: cbt_vdp01-eps-converted-to.pdf used on input line 901.
+
+(pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
+ [32 <./VDP-eps-converted-to.pdf>]
+(AFRL_UW_Report.bbl [33 <./cbt_vdp01-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 73--76
 []\OT1/cmr/m/n/12 Kjell Magne Fauske.  dot2tex - a graphviz to la-tex con-verte
 r.
  []
 
-) [32] (AFRL_UW_Report.aux) ) 
+) [34] (AFRL_UW_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 5093 strings out of 493634
- 77262 string characters out of 3143736
+ 5106 strings out of 493634
+ 77559 string characters out of 3143736
  147338 words of memory out of 3000000
- 8342 multiletter control sequences out of 15000+200000
+ 8353 multiletter control sequences out of 15000+200000
  15420 words of font info for 60 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,16n,77p,1612b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -788,9 +824,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AFRL_UW_Report.pdf (32 pages, 1263309 bytes).
+Output written on AFRL_UW_Report.pdf (34 pages, 1285541 bytes).
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
+ 442 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

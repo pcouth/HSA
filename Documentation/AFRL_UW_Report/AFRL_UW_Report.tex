@@ -770,6 +770,7 @@ Note that this Monte Carlo method of basin determination does not guarantee that
 
 
 \subsection{May 26, 2017}
+\label{may26}
 The numerical continuation basin tracing technique was explored. Similar to how numerical continuation is used to approximate an equilibrium solution branch, it can be used to ``trace'' a basin of attraction by altering the continuation problem definition to search for values of $x_0$ that solve $f(x_0,t_f)=x^*$, where $x^*$ is a stable equilibrium. This is done by incorporating a numerical integration step, such as a Runge Kutta method, into the continuation process so that approximations can be made for final values $x_f$ based on a given time span and initial conditions $x_0$. 
 
 Continuation is applied to integrator equation, which accesses the state equations at each iteration, instead of being applied directly to the state equations themselves. However, the inclusion of this numerical integration step requires additional variables since it is desired to vary the initial conditions and the states. This also requires additional equations to satisfy the numerical continuation requirement that the number of variables is one greater than the number of equations. To ensure that the solution satisfies the basin of attraction condition at each continuation step, the constraint equation
@@ -863,6 +864,54 @@ Since the last update, the code for generating the various types of hybrid stabi
 \subsubsection{Questions/concerns}
 \begin{itemize}
 \item A user manual will be created for the hybrid stability automaton tools.
+\end{itemize}
+
+
+\subsection{July 14, 2017}
+
+\subsubsection{User Manual}
+A user manual for the HSA generation tools is now available on the GitHub repository.
+
+\subsubsection{Basins of Attraction}
+Further development of the basin of attraction ``tracing'' technique previously discussed in Section \ref{may26} has begun. Many of the basin of attraction identification techniques that exist are based on finding Lyapunov functions to guarantee convergence to the stable equilibrium within its bounds. The dynamics for a Van der Pol oscillator are often used to demonstrate basin finding methods, such as in \cite{tan}, and will therefore be used as a benchmark system for this work. Specifically, the dynamics
+
+\begin{equation}
+\begin{bmatrix}
+\dot{x_1}\\\dot{x_2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+-x_2\\x_1+\left(x_1^2-1\right)x_2
+\end{bmatrix}
+\end{equation}
+will be investigated. This system contains a stable equilibrium at the origin and a surrounding unstable limit cycle as depicted in Figure \ref{VDP}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4in]{VDP.eps}
+\caption{Van der Pol oscillator.}
+\label{VDP}
+\end{center}
+\end{figure}
+
+Using the technique detailed in Section \ref{may26} with an initial condition known to be on the basin boundary, the continuation solution traces the boundary. However, the process was ended before traveling around the entire limit cycle. A second continuation process was initiated starting from a point near the end of the first continuation solution to build a composite solution. However, this solution ``turned in'' rather than staying along the basin's boundary. These two solutions are shown in Figure \ref{cbt_vdp01}, where the open blue dots indicate the two initial conditions used.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4in]{cbt_vdp01.eps}
+\caption{Basin tracing test on Van der Pol oscillator.}
+\label{cbt_vdp01}
+\end{center}
+\end{figure}
+
+\subsubsection{Questions/concerns}
+The continuation basin tracing technique was tested on a benchmark oscillator example. The following major issues were identified and are planned to be addressed to improve the capabilities of the tracing algorithm.
+
+\begin{itemize}
+\item The continuation process does not travel around the entire basin boundary. An alternative setup or a composite solution may be required to capture the entire basin.
+\item The analysis required an initial point known to be on the basin boundary. Initiating from internal points may not be effective in capturing the boundary, therefore it is desired to create a means of finding a starting boundary condition for systems where the boundary is not known.
+\item A means of preventing or working around the ``turning in'' behavior is needed.
+\item The analysis was performed by manually altering roughly-written code. In general, it is planned to build these capabilities into function files as progress is made.
 \end{itemize}
 
 
