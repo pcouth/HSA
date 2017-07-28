@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.4.4)  14 JUL 2017 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.3)  27 JUL 2017 20:21
 entering extended mode
 **./AFRL_UW_Report.tex
 (AFRL_UW_Report.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,31 +21,31 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -53,10 +53,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen105
@@ -69,18 +69,18 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 )
 \c@ContinuedFloat=\count88
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count89
@@ -96,8 +96,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen119
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count92
 \float@exts=\toks16
@@ -105,28 +105,28 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks17
 \@floatcapt=\box27
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
 )
 \XKV@depth=\count93
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box28
 )
@@ -136,7 +136,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen123
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen124
@@ -144,35 +144,35 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Depth=\dimen126
 \adjbox@Totalheight=\dimen127
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count94
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box29
 \sift@deathcycles=\count95
 \@vwid@loff=\dimen128
 \@vwid@roff=\dimen129
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks20
 \ex@=\dimen130
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen131
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count96
@@ -213,28 +213,28 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -243,7 +243,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -256,53 +256,99 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
 Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count108
 \c@subtable=\count109
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(AFRL_UW_Report.aux)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count110
+\lst@gtempboxa=\box32
+\lst@token=\toks25
+\lst@length=\count111
+\lst@currlwidth=\dimen139
+\lst@column=\count112
+\lst@pos=\count113
+\lst@lostspace=\dimen140
+\lst@width=\dimen141
+\lst@newlines=\count114
+\lst@lineno=\count115
+\lst@maxwidth=\dimen142
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count116
+\lst@skipnumbers=\count117
+\lst@framebox=\box33
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrextend.sty"
+Package: scrextend 2017/04/13 v3.23 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2017/04/13 v3.23 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2017/04/13 v3.23 KOMA-Script package (loading files)
+
+Package scrlfile, 2017/04/13 v3.23 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+LaTeX Info: Redefining \textsubscript on input line 1298.
+) (AFRL_UW_Report.aux)
 \openout1 = `AFRL_UW_Report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen139
-\scratchbox=\box32
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen140
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count118
+\scratchdimen=\dimen143
+\scratchbox=\box34
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen144
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks27
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -339,99 +385,99 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+\c@lstlisting=\count124
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <uw_logo.png, id=1, 252.945pt x 51.903pt>
 File: uw_logo.png Graphic file (type png)
  <use uw_logo.png>
-Package pdftex.def Info: uw_logo.png used on input line 21.
+Package pdftex.def Info: uw_logo.png used on input line 25.
 (pdftex.def)             Requested size: 252.94499pt x 51.90363pt.
 
 <afrl_logo.png, id=2, 145.29282pt x 145.29282pt>
 File: afrl_logo.png Graphic file (type png)
  <use afrl_logo.png>
-Package pdftex.def Info: afrl_logo.png used on input line 38.
+Package pdftex.def Info: afrl_logo.png used on input line 42.
 (pdftex.def)             Requested size: 108.405pt x 108.40622pt.
  [1
 
-{C:/Users/ADV-CTRL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./uw_log
-o.png> <./afrl_logo.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+{C:/Users/pcout_000/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./uw_lo
+go.png> <./afrl_logo.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 64.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
-
-[2] <continuation_allgower.png, id=17, 413.29407pt x 163.3603pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 64.
+ [2] <continuation_allgower.png, id=17, 413.29407pt x 163.3603pt>
 File: continuation_allgower.png Graphic file (type png)
 
 <use continuation_allgower.png>
-Package pdftex.def Info: continuation_allgower.png used on input line 81.
+Package pdftex.def Info: continuation_allgower.png used on input line 85.
 (pdftex.def)             Requested size: 271.0125pt x 107.12267pt.
  [3 <./continuation_allgower.png>] [4]
 <jan13_graph_concept.png, id=27, 876.27374pt x 386.94562pt>
 File: jan13_graph_concept.png Graphic file (type png)
 
 <use jan13_graph_concept.png>
-Package pdftex.def Info: jan13_graph_concept.png used on input line 153.
+Package pdftex.def Info: jan13_graph_concept.png used on input line 157.
 (pdftex.def)             Requested size: 433.62pt x 191.48257pt.
  [5 <./jan13_graph_concept.png>]
 <jan13_bfd_sn1.png, id=32, 421.575pt x 316.18124pt>
 File: jan13_bfd_sn1.png Graphic file (type png)
  <use jan13_bfd_sn1.png>
-Package pdftex.def Info: jan13_bfd_sn1.png used on input line 192.
+Package pdftex.def Info: jan13_bfd_sn1.png used on input line 196.
 (pdftex.def)             Requested size: 252.94499pt x 189.7102pt.
 
 [6] <jan13_graph_sn1.png, id=36, 403.5075pt x 439.6425pt>
 File: jan13_graph_sn1.png Graphic file (type png)
 
 <use jan13_graph_sn1.png>
-Package pdftex.def Info: jan13_graph_sn1.png used on input line 202.
+Package pdftex.def Info: jan13_graph_sn1.png used on input line 206.
 (pdftex.def)             Requested size: 198.7425pt x 216.5403pt.
 
 <jan13_graph_sn2.png, id=37, 347.04657pt x 191.21437pt>
 File: jan13_graph_sn2.png Graphic file (type png)
 
 <use jan13_graph_sn2.png>
-Package pdftex.def Info: jan13_graph_sn2.png used on input line 210.
+Package pdftex.def Info: jan13_graph_sn2.png used on input line 214.
 (pdftex.def)             Requested size: 252.94499pt x 139.37233pt.
  [7 <./jan13_bfd_sn1.png> <./jan13_graph_sn1.png>]
 <jan13_bfd_pf1.png, id=43, 421.575pt x 316.18124pt>
 File: jan13_bfd_pf1.png Graphic file (type png)
  <use jan13_bfd_pf1.png>
-Package pdftex.def Info: jan13_bfd_pf1.png used on input line 226.
+Package pdftex.def Info: jan13_bfd_pf1.png used on input line 230.
 (pdftex.def)             Requested size: 252.94499pt x 189.7102pt.
 
 <jan13_graph_pf2.png, id=44, 572.1375pt x 295.1025pt>
 File: jan13_graph_pf2.png Graphic file (type png)
 
 <use jan13_graph_pf2.png>
-Package pdftex.def Info: jan13_graph_pf2.png used on input line 236.
+Package pdftex.def Info: jan13_graph_pf2.png used on input line 240.
 (pdftex.def)             Requested size: 361.34999pt x 186.38385pt.
  [8 <./jan13_graph_sn2.png> <./jan13_bfd_pf1.png>]
 <jan20_graph_sn1.png, id=48, 404.51125pt x 347.2975pt>
 File: jan20_graph_sn1.png Graphic file (type png)
 
 <use jan20_graph_sn1.png>
-Package pdftex.def Info: jan20_graph_sn1.png used on input line 258.
+Package pdftex.def Info: jan20_graph_sn1.png used on input line 262.
 (pdftex.def)             Requested size: 216.81pt x 186.14412pt.
 
-Overfull \hbox (39.74542pt too wide) in paragraph at lines 258--259
+Overfull \hbox (39.74542pt too wide) in paragraph at lines 262--263
  [][] 
  []
 
 <jan20_graph_sn2.png, id=49, 232.87pt x 367.3725pt>
 File: jan20_graph_sn2.png Graphic file (type png)
  <use jan20_graph_sn2.png>
-Package pdftex.def Info: jan20_graph_sn2.png used on input line 265.
+Package pdftex.def Info: jan20_graph_sn2.png used on input line 269.
 (pdftex.def)             Requested size: 126.47249pt x 199.52173pt.
 
 [9 <./jan13_graph_pf2.png>]
@@ -439,10 +485,10 @@ Package pdftex.def Info: jan20_graph_sn2.png used on input line 265.
 File: jan20_graph_pf1.png Graphic file (type png)
 
 <use jan20_graph_pf1.png>
-Package pdftex.def Info: jan20_graph_pf1.png used on input line 277.
+Package pdftex.def Info: jan20_graph_pf1.png used on input line 281.
 (pdftex.def)             Requested size: 271.0125pt x 251.84549pt.
 
-Overfull \hbox (68.65959pt too wide) in paragraph at lines 277--278
+Overfull \hbox (68.65959pt too wide) in paragraph at lines 281--282
  [][] 
  []
 
@@ -450,7 +496,7 @@ Overfull \hbox (68.65959pt too wide) in paragraph at lines 277--278
 File: jan20_graph_pf2.png Graphic file (type png)
 
 <use jan20_graph_pf2.png>
-Package pdftex.def Info: jan20_graph_pf2.png used on input line 284.
+Package pdftex.def Info: jan20_graph_pf2.png used on input line 288.
 (pdftex.def)             Requested size: 108.405pt x 116.10951pt.
  [10 <./jan20_graph_sn1.png> <./jan20_graph_sn2.png> <./jan20_graph_pf1.png> <.
 /jan20_graph_pf2.png>]
@@ -458,18 +504,18 @@ Package pdftex.def Info: jan20_graph_pf2.png used on input line 284.
 File: feb10_graph_pf1.png Graphic file (type png)
 
 <use feb10_graph_pf1.png>
-Package pdftex.def Info: feb10_graph_pf1.png used on input line 313.
+Package pdftex.def Info: feb10_graph_pf1.png used on input line 317.
 (pdftex.def)             Requested size: 361.34999pt x 81.35605pt.
  [11 <./feb10_graph_pf1.png>]
 <feb17_graph_pf1.png, id=70, 489.83pt x 427.5975pt>
 File: feb17_graph_pf1.png Graphic file (type png)
  <use feb17_graph_pf1.png>
-Package pdftex.def Info: feb17_graph_pf1.png used on input line 330.
+Package pdftex.def Info: feb17_graph_pf1.png used on input line 334.
 (pdftex.def)             Requested size: 216.81pt x 189.25919pt.
 
 [12 <./feb17_graph_pf1.png>]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 351.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 355.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -484,30 +530,30 @@ Missing character: There is no ™ in font cmr10!
 File: feb24_graph_sn1.png Graphic file (type png)
 
 <use feb24_graph_sn1.png>
-Package pdftex.def Info: feb24_graph_sn1.png used on input line 392.
+Package pdftex.def Info: feb24_graph_sn1.png used on input line 396.
 (pdftex.def)             Requested size: 216.81pt x 147.80595pt.
 
-Overfull \hbox (14.45709pt too wide) in paragraph at lines 392--393
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 396--397
  [][] 
  []
 
 <feb24_graph_pf1.png, id=81, 634.37pt x 670.505pt>
 File: feb24_graph_pf1.png Graphic file (type png)
  <use feb24_graph_pf1.png>
-Package pdftex.def Info: feb24_graph_pf1.png used on input line 399.
+Package pdftex.def Info: feb24_graph_pf1.png used on input line 403.
 (pdftex.def)             Requested size: 216.81pt x 229.15549pt.
 
-Overfull \hbox (14.45709pt too wide) in paragraph at lines 399--400
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 403--404
  [][] 
  []
 
 <feb24_graph_tc1.png, id=82, 639.38875pt x 529.98pt>
 File: feb24_graph_tc1.png Graphic file (type png)
  <use feb24_graph_tc1.png>
-Package pdftex.def Info: feb24_graph_tc1.png used on input line 406.
+Package pdftex.def Info: feb24_graph_tc1.png used on input line 410.
 (pdftex.def)             Requested size: 216.81pt x 179.71368pt.
 
-Overfull \hbox (14.45709pt too wide) in paragraph at lines 406--407
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 410--411
  [][] 
  []
 
@@ -518,10 +564,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: mar03_graph_sn1.png Graphic file (type png)
 
 <use mar03_graph_sn1.png>
-Package pdftex.def Info: mar03_graph_sn1.png used on input line 429.
+Package pdftex.def Info: mar03_graph_sn1.png used on input line 433.
 (pdftex.def)             Requested size: 271.0125pt x 205.3437pt.
 
-Overfull \hbox (68.65959pt too wide) in paragraph at lines 429--430
+Overfull \hbox (68.65959pt too wide) in paragraph at lines 433--434
  [][] 
  []
 
@@ -529,34 +575,34 @@ Overfull \hbox (68.65959pt too wide) in paragraph at lines 429--430
 File: mar03_graph_sn2.png Graphic file (type png)
 
 <use mar03_graph_sn2.png>
-Package pdftex.def Info: mar03_graph_sn2.png used on input line 436.
+Package pdftex.def Info: mar03_graph_sn2.png used on input line 440.
 (pdftex.def)             Requested size: 162.6075pt x 196.54614pt.
  [15 <./feb24_graph_sn1.png> <./feb24_graph_pf1.png> <./feb24_graph_tc1.png>] <
 mar10_graph_mp1.png, id=94, 963.6pt x 526.96875pt>
 File: mar10_graph_mp1.png Graphic file (type png)
 
 <use mar10_graph_mp1.png>
-Package pdftex.def Info: mar10_graph_mp1.png used on input line 462.
+Package pdftex.def Info: mar10_graph_mp1.png used on input line 466.
 (pdftex.def)             Requested size: 433.62pt x 237.13374pt.
  [16 <./mar03_graph_sn1.png> <./mar03_graph_sn2.png>]
 <mar10_bfd1.png, id=100, 421.575pt x 316.18124pt>
 File: mar10_bfd1.png Graphic file (type png)
  <use mar10_bfd1.png>
-Package pdftex.def Info: mar10_bfd1.png used on input line 470.
+Package pdftex.def Info: mar10_bfd1.png used on input line 474.
 (pdftex.def)             Requested size: 252.94499pt x 189.7102pt.
 
 <mar24_graph_pf1.png, id=101, 526.96875pt x 587.19376pt>
 File: mar24_graph_pf1.png Graphic file (type png)
 
 <use mar24_graph_pf1.png>
-Package pdftex.def Info: mar24_graph_pf1.png used on input line 485.
+Package pdftex.def Info: mar24_graph_pf1.png used on input line 489.
 (pdftex.def)             Requested size: 180.67499pt x 201.32768pt.
 
 <mar24_graph_pf2.png, id=102, 263.98625pt x 587.19376pt>
 File: mar24_graph_pf2.png Graphic file (type png)
 
 <use mar24_graph_pf2.png>
-Package pdftex.def Info: mar24_graph_pf2.png used on input line 490.
+Package pdftex.def Info: mar24_graph_pf2.png used on input line 494.
 (pdftex.def)             Requested size: 90.3375pt x 200.93346pt.
  [17 <./mar10_graph_mp1.png> <./mar10_bfd1.png (PNG copy)>] [18 <./mar24_graph_
 pf1.png> <./mar24_graph_pf2.png>]
@@ -564,10 +610,10 @@ pf1.png> <./mar24_graph_pf2.png>]
 File: mar24_graph_mpgen.png Graphic file (type png)
 
 <use mar24_graph_mpgen.png>
-Package pdftex.def Info: mar24_graph_mpgen.png used on input line 530.
+Package pdftex.def Info: mar24_graph_mpgen.png used on input line 534.
 (pdftex.def)             Requested size: 252.94499pt x 310.91669pt.
 
-Overfull \hbox (50.59209pt too wide) in paragraph at lines 530--531
+Overfull \hbox (50.59209pt too wide) in paragraph at lines 534--535
  [][] 
  []
 
@@ -575,10 +621,10 @@ Overfull \hbox (50.59209pt too wide) in paragraph at lines 530--531
 File: mar24_graph_mpfp.png Graphic file (type png)
 
 <use mar24_graph_mpfp.png>
-Package pdftex.def Info: mar24_graph_mpfp.png used on input line 536.
+Package pdftex.def Info: mar24_graph_mpfp.png used on input line 540.
 (pdftex.def)             Requested size: 216.81pt x 264.28957pt.
 
-Overfull \hbox (14.45709pt too wide) in paragraph at lines 536--537
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 540--541
  [][] 
  []
 
@@ -587,10 +633,10 @@ Overfull \hbox (14.45709pt too wide) in paragraph at lines 536--537
 File: mar31_graph_mpgen.png Graphic file (type png)
 
 <use mar31_graph_mpgen.png>
-Package pdftex.def Info: mar31_graph_mpgen.png used on input line 589.
+Package pdftex.def Info: mar31_graph_mpgen.png used on input line 593.
 (pdftex.def)             Requested size: 252.94499pt x 252.15099pt.
 
-Overfull \hbox (50.59209pt too wide) in paragraph at lines 589--590
+Overfull \hbox (50.59209pt too wide) in paragraph at lines 593--594
  [][] 
  []
 
@@ -598,10 +644,10 @@ Overfull \hbox (50.59209pt too wide) in paragraph at lines 589--590
 File: mar31_graph_mpfp.png Graphic file (type png)
 
 <use mar31_graph_mpfp.png>
-Package pdftex.def Info: mar31_graph_mpfp.png used on input line 595.
+Package pdftex.def Info: mar31_graph_mpfp.png used on input line 599.
 (pdftex.def)             Requested size: 216.81pt x 206.77104pt.
 
-Overfull \hbox (14.45709pt too wide) in paragraph at lines 595--596
+Overfull \hbox (14.45709pt too wide) in paragraph at lines 599--600
  [][] 
  []
 
@@ -609,28 +655,28 @@ Overfull \hbox (14.45709pt too wide) in paragraph at lines 595--596
 File: apr07_texgraph_mp1.pdf Graphic file (type pdf)
 
 <use apr07_texgraph_mp1.pdf>
-Package pdftex.def Info: apr07_texgraph_mp1.pdf used on input line 610.
+Package pdftex.def Info: apr07_texgraph_mp1.pdf used on input line 614.
 (pdftex.def)             Requested size: 433.62pt x 517.32631pt.
  [21 <./mar31_graph_mpgen.png> <./mar31_graph_mpfp.png>] [22 <./apr07_texgraph_
 mp1.pdf>] [23]
 <may05_bfd_MD.png, id=170, 421.575pt x 316.18124pt>
 File: may05_bfd_MD.png Graphic file (type png)
  <use may05_bfd_MD.png>
-Package pdftex.def Info: may05_bfd_MD.png used on input line 658.
+Package pdftex.def Info: may05_bfd_MD.png used on input line 662.
 (pdftex.def)             Requested size: 252.94499pt x 189.7102pt.
 
 <may05_graph_MD1.pdf, id=171, 549.05125pt x 640.50792pt>
 File: may05_graph_MD1.pdf Graphic file (type pdf)
 
 <use may05_graph_MD1.pdf>
-Package pdftex.def Info: may05_graph_MD1.pdf used on input line 668.
+Package pdftex.def Info: may05_graph_MD1.pdf used on input line 672.
 (pdftex.def)             Requested size: 274.6262pt x 320.38022pt.
 
 <may05_graph_MD2.pdf, id=172, 259.97125pt x 433.73543pt>
 File: may05_graph_MD2.pdf Graphic file (type pdf)
 
 <use may05_graph_MD2.pdf>
-Package pdftex.def Info: may05_graph_MD2.pdf used on input line 674.
+Package pdftex.def Info: may05_graph_MD2.pdf used on input line 678.
 (pdftex.def)             Requested size: 130.08621pt x 217.03262pt.
  [24 <./may05_bfd_MD.png (PNG copy)> <./may05_graph_MD1.pdf> <./may05_graph_MD2
 .pdf>]
@@ -638,31 +684,31 @@ Package pdftex.def Info: may05_graph_MD2.pdf used on input line 674.
 File: may05_graph_MDMP1.pdf Graphic file (type pdf)
 
 <use may05_graph_MDMP1.pdf>
-Package pdftex.def Info: may05_graph_MDMP1.pdf used on input line 704.
+Package pdftex.def Info: may05_graph_MDMP1.pdf used on input line 708.
 (pdftex.def)             Requested size: 433.62pt x 424.2807pt.
 
 <may05_graph_MDMP2.pdf, id=231, 537.00626pt x 823.27171pt>
 File: may05_graph_MDMP2.pdf Graphic file (type pdf)
 
 <use may05_graph_MDMP2.pdf>
-Package pdftex.def Info: may05_graph_MDMP2.pdf used on input line 712.
+Package pdftex.def Info: may05_graph_MDMP2.pdf used on input line 716.
 (pdftex.def)             Requested size: 216.81pt x 332.38055pt.
  [25 <./may05_graph_MDMP1.pdf>] [26 <./may05_graph_MDMP2.pdf>] <basinMDMP_11_1.
 png, id=289, 551.05875pt x 393.72093pt>
 File: basinMDMP_11_1.png Graphic file (type png)
 
 <use basinMDMP_11_1.png>
-Package pdftex.def Info: basinMDMP_11_1.png used on input line 741.
+Package pdftex.def Info: basinMDMP_11_1.png used on input line 745.
 (pdftex.def)             Requested size: 267.39877pt x 191.05655pt.
 Package epstopdf Info: Source file: <basinMDMP_11_2.eps>
-(epstopdf)                    date: 2017-05-11 14:37:34
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 787605 bytes
 (epstopdf)             Output file: <basinMDMP_11_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:50:35
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 37274 bytes
 (epstopdf)             Command: <epstopdf --outfile=basinMDMP_11_2-eps-converte
 d-to.pdf basinMDMP_11_2.eps>
-(epstopdf)             \includegraphics on input line 749.
+(epstopdf)             \includegraphics on input line 753.
 Package epstopdf Info: Output file is already uptodate.
 
 <basinMDMP_11_2-eps-converted-to.pdf, id=290, 421.575pt x 316.18124pt>
@@ -670,24 +716,24 @@ File: basinMDMP_11_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basinMDMP_11_2-eps-converted-to.pdf>
 Package pdftex.def Info: basinMDMP_11_2-eps-converted-to.pdf used on input line
- 749.
+ 753.
 (pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
 Package epstopdf Info: Source file: <Ds11_basin.eps>
-(epstopdf)                    date: 2017-05-11 14:32:22
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 181896 bytes
 (epstopdf)             Output file: <Ds11_basin-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-12 11:50:36
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 7330 bytes
 (epstopdf)             Command: <epstopdf --outfile=Ds11_basin-eps-converted-to
 .pdf Ds11_basin.eps>
-(epstopdf)             \includegraphics on input line 757.
+(epstopdf)             \includegraphics on input line 761.
 Package epstopdf Info: Output file is already uptodate.
 
 <Ds11_basin-eps-converted-to.pdf, id=291, 421.575pt x 316.18124pt>
 File: Ds11_basin-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Ds11_basin-eps-converted-to.pdf>
-Package pdftex.def Info: Ds11_basin-eps-converted-to.pdf used on input line 757
+Package pdftex.def Info: Ds11_basin-eps-converted-to.pdf used on input line 761
 .
 (pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
  [27 <./basinMDMP_11_1.png> <./basinMDMP_11_2-eps-converted-to.pdf>] [28 <./Ds1
@@ -695,19 +741,19 @@ Package pdftex.def Info: Ds11_basin-eps-converted-to.pdf used on input line 757
 <MDMP_graph2.pdf, id=317, 599.23875pt x 811.22672pt>
 File: MDMP_graph2.pdf Graphic file (type pdf)
  <use MDMP_graph2.pdf>
-Package pdftex.def Info: MDMP_graph2.pdf used on input line 804.
+Package pdftex.def Info: MDMP_graph2.pdf used on input line 808.
 (pdftex.def)             Requested size: 289.07999pt x 391.35255pt.
 
 [29 <./MDMP_graph2.pdf>]
 Package epstopdf Info: Source file: <basin_compare.eps>
-(epstopdf)                    date: 2017-05-26 10:48:52
+(epstopdf)                    date: 2017-07-26 12:32:26
 (epstopdf)                    size: 815228 bytes
 (epstopdf)             Output file: <basin_compare-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-26 11:22:48
+(epstopdf)                    date: 2017-07-26 12:32:26
 (epstopdf)                    size: 43208 bytes
 (epstopdf)             Command: <epstopdf --outfile=basin_compare-eps-converted
 -to.pdf basin_compare.eps>
-(epstopdf)             \includegraphics on input line 814.
+(epstopdf)             \includegraphics on input line 818.
 Package epstopdf Info: Output file is already uptodate.
 
 <basin_compare-eps-converted-to.pdf, id=346, 421.575pt x 316.18124pt>
@@ -715,118 +761,138 @@ File: basin_compare-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basin_compare-eps-converted-to.pdf>
 Package pdftex.def Info: basin_compare-eps-converted-to.pdf used on input line 
-814.
+818.
 (pdftex.def)             Requested size: 325.215pt x 243.9138pt.
 Package epstopdf Info: Source file: <basin_MC.eps>
-(epstopdf)                    date: 2017-05-26 10:48:52
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 182479 bytes
 (epstopdf)             Output file: <basin_MC-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-26 11:22:49
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 7397 bytes
 (epstopdf)             Command: <epstopdf --outfile=basin_MC-eps-converted-to.p
 df basin_MC.eps>
-(epstopdf)             \includegraphics on input line 824.
+(epstopdf)             \includegraphics on input line 828.
 Package epstopdf Info: Output file is already uptodate.
 
 <basin_MC-eps-converted-to.pdf, id=347, 421.575pt x 316.18124pt>
 File: basin_MC-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basin_MC-eps-converted-to.pdf>
-Package pdftex.def Info: basin_MC-eps-converted-to.pdf used on input line 824.
+Package pdftex.def Info: basin_MC-eps-converted-to.pdf used on input line 828.
 (pdftex.def)             Requested size: 227.64894pt x 170.74014pt.
 Package epstopdf Info: Source file: <basin_NM.eps>
-(epstopdf)                    date: 2017-05-26 10:48:52
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 262388 bytes
 (epstopdf)             Output file: <basin_NM-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-05-26 11:22:50
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 17909 bytes
 (epstopdf)             Command: <epstopdf --outfile=basin_NM-eps-converted-to.p
 df basin_NM.eps>
-(epstopdf)             \includegraphics on input line 829.
+(epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
 
 <basin_NM-eps-converted-to.pdf, id=348, 421.575pt x 316.18124pt>
 File: basin_NM-eps-converted-to.pdf Graphic file (type pdf)
 
 <use basin_NM-eps-converted-to.pdf>
-Package pdftex.def Info: basin_NM-eps-converted-to.pdf used on input line 829.
+Package pdftex.def Info: basin_NM-eps-converted-to.pdf used on input line 833.
 (pdftex.def)             Requested size: 227.64894pt x 170.74014pt.
  [30 <./basin_compare-eps-converted-to.pdf> <./basin_MC-eps-converted-to.pdf> <
 ./basin_NM-eps-converted-to.pdf>]
-Overfull \hbox (2.3751pt too wide) in paragraph at lines 848--849
+Overfull \hbox (2.3751pt too wide) in paragraph at lines 852--853
 []\OT1/cmr/m/n/12 Fixed an is-sue with branch sep-a-ra-tion for multi-dimension
 al sys-tems. Pre-vi-ously, only branches
  []
 
 [31]
 Package epstopdf Info: Source file: <VDP.eps>
-(epstopdf)                    date: 2017-07-14 14:39:30
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 21434 bytes
 (epstopdf)             Output file: <VDP-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-14 14:39:34
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 4466 bytes
 (epstopdf)             Command: <epstopdf --outfile=VDP-eps-converted-to.pdf VD
 P.eps>
-(epstopdf)             \includegraphics on input line 891.
+(epstopdf)             \includegraphics on input line 895.
 Package epstopdf Info: Output file is already uptodate.
  <VDP-eps-converted-to.pdf, id=383, 421.575pt x 316.18124pt>
 File: VDP-eps-converted-to.pdf Graphic file (type pdf)
 
 <use VDP-eps-converted-to.pdf>
-Package pdftex.def Info: VDP-eps-converted-to.pdf used on input line 891.
+Package pdftex.def Info: VDP-eps-converted-to.pdf used on input line 895.
 (pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
 Package epstopdf Info: Source file: <cbt_vdp01.eps>
-(epstopdf)                    date: 2017-07-14 14:53:49
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 286291 bytes
 (epstopdf)             Output file: <cbt_vdp01-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-14 14:54:24
+(epstopdf)                    date: 2017-07-26 12:32:28
 (epstopdf)                    size: 15379 bytes
 (epstopdf)             Command: <epstopdf --outfile=cbt_vdp01-eps-converted-to.
 pdf cbt_vdp01.eps>
-(epstopdf)             \includegraphics on input line 901.
+(epstopdf)             \includegraphics on input line 905.
 Package epstopdf Info: Output file is already uptodate.
 
 <cbt_vdp01-eps-converted-to.pdf, id=384, 421.575pt x 316.18124pt>
 File: cbt_vdp01-eps-converted-to.pdf Graphic file (type pdf)
 
 <use cbt_vdp01-eps-converted-to.pdf>
-Package pdftex.def Info: cbt_vdp01-eps-converted-to.pdf used on input line 901.
+Package pdftex.def Info: cbt_vdp01-eps-converted-to.pdf used on input line 905.
 
 (pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
- [32 <./VDP-eps-converted-to.pdf>]
-(AFRL_UW_Report.bbl [33 <./cbt_vdp01-eps-converted-to.pdf>]
+ [32 <./VDP-eps-converted-to.pdf>] [33 <./cbt_vdp01-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <cbt_vdp02.eps>
+(epstopdf)                    date: 2017-07-26 12:32:28
+(epstopdf)                    size: 506644 bytes
+(epstopdf)             Output file: <cbt_vdp02-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-07-26 12:32:28
+(epstopdf)                    size: 74508 bytes
+(epstopdf)             Command: <epstopdf --outfile=cbt_vdp02-eps-converted-to.
+pdf cbt_vdp02.eps>
+(epstopdf)             \includegraphics on input line 945.
+Package epstopdf Info: Output file is already uptodate.
+
+<cbt_vdp02-eps-converted-to.pdf, id=397, 421.575pt x 316.18124pt>
+File: cbt_vdp02-eps-converted-to.pdf Graphic file (type pdf)
+
+<use cbt_vdp02-eps-converted-to.pdf>
+Package pdftex.def Info: cbt_vdp02-eps-converted-to.pdf used on input line 945.
+
+(pdftex.def)             Requested size: 289.07999pt x 216.81442pt.
+ [34 <./cbt_vdp02-eps-converted-to.pdf>]
+(AFRL_UW_Report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 73--76
 []\OT1/cmr/m/n/12 Kjell Magne Fauske.  dot2tex - a graphviz to la-tex con-verte
 r.
  []
 
-) [34] (AFRL_UW_Report.aux) ) 
+) [35] [36] (AFRL_UW_Report.aux) ) 
 Here is how much of TeX's memory you used:
- 5106 strings out of 493634
- 77559 string characters out of 3143736
- 147338 words of memory out of 3000000
- 8353 multiletter control sequences out of 15000+200000
+ 6914 strings out of 493634
+ 106865 string characters out of 3141303
+ 194224 words of memory out of 3000000
+ 10135 multiletter control sequences out of 15000+200000
  15420 words of font info for 60 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,16n,77p,1612b,565s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AFRL_UW_Report.pdf (34 pages, 1285541 bytes).
+ 42i,16n,77p,1612b,1468s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on AFRL_UW_Report.pdf (36 pages, 1367386 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
+ 452 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 

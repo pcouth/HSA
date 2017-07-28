@@ -8,6 +8,10 @@
 \usepackage{epstopdf}
 \usepackage{subcaption}
 \usepackage{amssymb}
+\usepackage{listings}
+\usepackage{scrextend}
+
+\lstset{basicstyle=\ttfamily} 
 
 \begin{document}
 
@@ -913,6 +917,46 @@ The continuation basin tracing technique was tested on a benchmark oscillator ex
 \item A means of preventing or working around the ``turning in'' behavior is needed.
 \item The analysis was performed by manually altering roughly-written code. In general, it is planned to build these capabilities into function files as progress is made.
 \end{itemize}
+
+
+\subsection{July 27, 2017}
+Previously, the basin tracing technique varied the states $x$, initial conditions $x_0$, and zero tolerance $\epsilon$ during the continuation process. In this process, the time step size and number of steps for the Runge Kutta integration were fixed as constants defined by the user. This setup was  changed to vary time step size instead of zero tolerance, which is now fixed as a constant along with the number of integration steps. This continuation basin tracing technique was packaged into a MATLAB function named \texttt{cbt}.
+
+The \texttt{cbt} function was tested on the Van der Pol example using two initial solutions known to be on the basin boundary. The sample code is shown below. 
+
+\begin{addmargin}[0.5in]{1em}
+\begin{lstlisting}
+F = @(x,u,p) [-x(2);x(1)+(x(1)^2-1)*x(2)];
+pb0 = [0 -2.16;0 2.16];       
+plimit = [-3 3;-3 3;0.1 1];     
+steps = 100;                   
+equil = [0;0];                  
+ztol = 0.1;              
+basin = cbt(F,equil,pb0,plimit,steps,ztol);
+\end{lstlisting}
+\end{addmargin}
+
+\noindent Line 1 establishes the Van der Pol function handle. Line 2 provides the two known initial solutions, which tells \texttt{cbt} to run two continuation processes and build a composite solution from the results. Line 3 sets the limits for the continuation parameters. The states are limited from -3 to 3 and the time step size is limited from 0.1 to 1. Line 4 sets the the number of integration steps. Line 5 identifies the value of the stable equilibrium. Line 6 sets the zero tolerance between the final integrated state values and the stable equilibrium. Line 7 activates the \texttt{cbt} function. The output of this function is the outer boundary of the solutions found via continuation.
+
+The resulting basin of attraction approximation is shown in Figure \ref{cbt_vdp02}. Unlike the previous test shown in Figure \ref{cbt_vdp01}, the ``turning in'' behavior was not encountered using this new setup. However, the two-step composite solution was required since a single continuation process alone did not trace the entire basin boundary.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=4in]{cbt_vdp02.eps}
+\caption{Basin tracing test on Van der Pol oscillator.}
+\label{cbt_vdp02}
+\end{center}
+\end{figure}
+
+\subsubsection{Questions/concerns}
+
+\begin{itemize}
+\item The change from varying zero tolerance to time step size, while better-suited to handle the Van der Pol example, yields a less desirable result for the Section \ref{may26} example. Now, the continuation process breaks before tracing the entire boundary, thus requiring a composite solution with multiple initial points. Previously, the boundary was determined in a single continuation run. It may be useful to vary different parameters depending on the particular system of interest. Further investigation is required, and user selection of parameters to vary may be incorporated.
+
+\item A simulation-based option for finding initial points may be developed for when the user cannot provide any points known to be on the basin boundary.
+
+\end{itemize}
+
 
 
 \bibliographystyle{unsrt}
